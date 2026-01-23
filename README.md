@@ -4,7 +4,6 @@
 
 [![Phiên bản](https://img.shields.io/github/v/release/tuyenhm68/KomfyStudio)](https://github.com/tuyenhm68/KomfyStudio/releases)
 [![Tải xuống](https://img.shields.io/github/downloads/tuyenhm68/KomfyStudio/total)](https://github.com/tuyenhm68/KomfyStudio/releases)
-[![Giấy phép](https://img.shields.io/github/license/tuyenhm68/KomfyStudio)](LICENSE)
 
 ---
 
@@ -12,12 +11,22 @@
 
 **[⬇️ Tải phiên bản mới nhất](https://github.com/tuyenhm68/KomfyStudio/releases/latest)**
 
+**[⬇️ Comfy Portable dành cho KomfyStudio](https://bit.ly/4rdBPOM)**
+
+**[⬇️ Modal Notebook dành cho KomfyStudio](https://bit.ly/4qwmgl6)**
+
+**[⬇️ Colab Notebook dành cho KomfyStudio](https://bit.ly/3NCDzT0)**
+
+**[⬇️ Runpod serverless template dành cho KomfyStudio](https://bit.ly/4sWRG5Q)**
+
 ### Yêu Cầu Hệ Thống
 
 - **Hệ điều hành**: Windows 10/11 (64-bit)
-- **RAM**: Tối thiểu 8GB (Khuyến nghị 16GB+)
+- **RAM**: Tối thiểu 12GB (Khuyến nghị 24GB+)
 - **GPU**: NVIDIA GPU với CUDA support (Khuyến nghị)
-- **Dung lượng**: 5GB+ dung lượng trống
+- **Dung lượng**: 
+- 1GB+ dung lượng trống để cài app; 
+- 100GB+ dung lượng trống để cài ComfyUI (Khuyến nghị ổ SSD 500GB trở lên)
 
 ---
 
@@ -28,7 +37,6 @@
 - **Text-to-Image (T2I)**: Tạo ảnh từ mô tả văn bản
 - **Image-to-Image (I2I)**: Chỉnh sửa và biến đổi ảnh
 - **Photo Restore**: Phục hồi và nâng cao chất lượng ảnh cũ
-- **Inpainting**: Xóa và thay thế đối tượng trong ảnh
 - Hỗ trợ nhiều định dạng: Landscape, Square, Portrait
 
 ### 🎬 Tạo Video AI
@@ -41,8 +49,7 @@
 ### 🎵 Tạo Âm Thanh AI
 
 - **Text-to-Audio**: Tạo âm thanh và nhạc từ mô tả
-- Kiểm soát thời lượng và chất lượng âm thanh
-- *(Sắp ra mắt)*
+- **Text-to-Music**: Tạo nhạc từ mô tả
 
 ### 🔧 Quản Lý Backend
 
@@ -83,15 +90,14 @@
 
 ### Bước 1: Tải Installer
 
-1. Vào [Releases](https://github.com/tuyenhm68/KomfyStudio/releases/latest)
-2. Tải file `KomfyStudio-Setup-x.x.x.exe`
+1. Vào [Releases](https://github.com/tuyenhm68/KomfyStudio/releases/latest), tải file `KomfyStudio-Setup-x.x.x.exe`
+2. Tải ComfyUI Portable [(Theo link)](https://bit.ly/4rdBPOM)
 
 ### Bước 2: Cài Đặt
 
 1. Chạy file installer đã tải
 2. Làm theo hướng dẫn trên màn hình
-3. Chọn thư mục cài đặt (mặc định: `C:\Program Files\KomfyStudio`)
-4. Hoàn tất cài đặt
+3. Hoàn tất cài đặt
 
 ### Bước 3: Cấu Hình Backend (Tùy chọn)
 
@@ -157,25 +163,6 @@
 3. Tất cả outputs sẽ được lưu vào dự án đang active
 4. Click vào dự án để xem tất cả outputs
 5. Sử dụng tìm kiếm để lọc outputs
-
----
-
-## 🎯 Workflows Được Hỗ Trợ
-
-KomfyStudio đi kèm với các workflows được tối ưu sẵn:
-
-### Image Generation
-- **FLUX.1 Dev** - Text to Image chất lượng cao
-- **FLUX.1 Schnell** - Text to Image nhanh
-- **Stable Diffusion XL** - Text to Image đa năng
-
-### Video Generation
-- **CogVideoX** - Text to Video & Image to Video
-- **Mochi 1** - Video generation chất lượng cao
-
-### Image Enhancement
-- **Photo Restore** - Phục hồi ảnh cũ
-- **Inpainting** - Chỉnh sửa ảnh thông minh
 
 ---
 
@@ -260,14 +247,6 @@ Nếu bạn gặp lỗi hoặc có góp ý:
 
 ---
 
-## 📝 Ghi Chú
-
-- **Source Code**: Mã nguồn được quản lý riêng trong private repository
-- **Releases**: Chỉ phân phối compiled binaries tại đây
-- **Auto-Update**: Được cấu hình để tự động cập nhật từ repo này
-
----
-
 ## 📄 Giấy Phép
 
 Copyright © 2026 Hà Mạnh Tuyến
@@ -278,9 +257,4 @@ Copyright © 2026 Hà Mạnh Tuyến
 
 - **Releases**: https://github.com/tuyenhm68/KomfyStudio/releases
 - **YouTube**: [Kênh YouTube](https://youtube.com/@tuyenhm68)
-- **Email**: tuyenhm68@gmail.com
-
 ---
-
-**Phiên bản hiện tại**: 0.1.5  
-**Cập nhật lần cuối**: 2026-01-21
