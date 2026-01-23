@@ -11,13 +11,13 @@
 
 **[⬇️ Tải phiên bản mới nhất](https://github.com/tuyenhm68/KomfyStudio/releases/latest)**
 
-**[⬇️ Comfy Portable dành cho KomfyStudio](https://bit.ly/4rdBPOM)**
+**[⬇️ Comfy Portable dành cho KomfyStudio](https://drive.google.com/file/d/1De-0ZK_Igly5iFKwfKAUd4V6Vj87XDl4/view?usp=drive_link)**
 
-**[⬇️ Modal Notebook dành cho KomfyStudio](https://bit.ly/4qwmgl6)**
+**[⬇️ Comfy Modal Notebook dành cho KomfyStudio](https://modal.com/notebooks/tuyenhm68/main/nb-DbCzbt5HUwPCz49YjN1W94)**
 
-**[⬇️ Colab Notebook dành cho KomfyStudio](https://bit.ly/3NCDzT0)**
+**[⬇️ Comfy Colab Notebook dành cho KomfyStudio](https://colab.research.google.com/drive/1qkMhPoRUL9zsoj-ogX-gx6Hw-9zi2Hgx?usp=sharing)**
 
-**[⬇️ Runpod serverless template dành cho KomfyStudio](https://bit.ly/4sWRG5Q)**
+**[⬇️ Comfy Runpod serverless template dành cho KomfyStudio](https://console.runpod.io/deploy?template=c2clojkox5&ref=rpuub8vb)**
 
 ### Yêu Cầu Hệ Thống
 
