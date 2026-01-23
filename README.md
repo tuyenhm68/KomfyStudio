@@ -1,6 +1,6 @@
 # 🎨 KomfyStudio
 
-**Nền tảng tạo ảnh & video AI được hỗ trợ bởi ComfyUI**
+**Ứng dụng tạo ảnh & video AI được hỗ trợ bởi ComfyUI**
 
 [![Phiên bản](https://img.shields.io/github/v/release/tuyenhm68/KomfyStudio)](https://github.com/tuyenhm68/KomfyStudio/releases)
 [![Tải xuống](https://img.shields.io/github/downloads/tuyenhm68/KomfyStudio/total)](https://github.com/tuyenhm68/KomfyStudio/releases)
@@ -21,11 +21,11 @@
 
 ### Yêu Cầu Hệ Thống
 
-- **Hệ điều hành**: Windows 10/11 (64-bit)
-- **RAM**: Tối thiểu 12GB (Khuyến nghị 24GB+)
-- **GPU**: NVIDIA GPU với CUDA support (Khuyến nghị)
-- **Dung lượng**: 
-- 1GB+ dung lượng trống để cài app; 
+- **Hệ điều hành**: Windows 10/11
+- **RAM**: Tối thiểu 12GB (Khuyến nghị 32GB+)
+- **GPU**: NVIDIA GPU với CUDA support từ 12GB VRAM trở lên (Khuyến nghị 24GB+ VRAM)
+- **Dung lượng ổ cứng**: 
+- 200MB dung lượng trống để cài app; 
 - 100GB+ dung lượng trống để cài ComfyUI (Khuyến nghị ổ SSD 500GB trở lên)
 
 ---
@@ -43,7 +43,6 @@
 
 - **Text-to-Video (T2V)**: Tạo video từ mô tả văn bản
 - **Image-to-Video (I2V)**: Chuyển ảnh tĩnh thành video động
-- Kiểm soát thời lượng và chất lượng video
 - Hỗ trợ nhiều tỷ lệ khung hình
 
 ### 🎵 Tạo Âm Thanh AI
@@ -55,9 +54,8 @@
 
 - **Local Backend**: Chạy ComfyUI trên máy tính của bạn
   - Nút Start/Stop backend tiện lợi
-  - Tự động phát hiện cài đặt ComfyUI
   - Cấu hình đường dẫn tùy chỉnh
-- **VPS Backend**: Kết nối đến server từ xa
+- **VPS Backend**: Kết nối đến server từ xa sử dụng: VPS, Colab, Runpod
 - **Serverless Backend**: Sử dụng RunPod Serverless
 - Chuyển đổi backend linh hoạt
 - Kiểm tra trạng thái kết nối
@@ -73,8 +71,7 @@
 ### 🎨 Giao Diện Thân Thiện
 
 - Giao diện hiện đại, dễ sử dụng
-- Hỗ trợ đa ngôn ngữ (Tiếng Việt, English)
-- Dark mode mặc định
+- Hỗ trợ Tiếng Việt, English
 - Preview real-time khi tạo
 - Zoom và pan ảnh trong modal preview
 
@@ -187,8 +184,7 @@
 ### Cấu Hình API Keys
 
 1. Mở **Settings** → **General**
-2. Nhập Hugging Face token (nếu cần)
-3. Token dùng để tải models có giới hạn truy cập
+2. Nhập Hugging Face token để phục vụ tải các models có giới hạn truy cập
 
 ---
 
@@ -254,7 +250,5 @@ Copyright © 2026 Hà Mạnh Tuyến
 ---
 
 ## 🔗 Liên Kết
-
-- **Releases**: https://github.com/tuyenhm68/KomfyStudio/releases
 - **YouTube**: [Kênh YouTube](https://youtube.com/@tuyenhm68)
 ---
