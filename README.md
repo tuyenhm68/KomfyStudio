@@ -25,9 +25,11 @@
 - **RAM**: Tối thiểu 12GB (Khuyến nghị 32GB+)
 - **GPU**: NVIDIA GPU với CUDA support từ 12GB VRAM trở lên (Khuyến nghị 24GB+ VRAM)
 - **Dung lượng ổ cứng**: 
-- 200MB dung lượng trống để cài app; 
+- 200MB dung lượng trống để cài app
 - 100GB+ dung lượng trống để cài ComfyUI (Khuyến nghị ổ SSD 500GB trở lên)
 
+### Hướng Dẫn
+**[Video Hướng dẫn cài đặt và sử dụng](https://www.youtube.com/playlist?list=PL9QrPbhu7dy_iW_QMaWAlyWKEoXncJnYp)
 ---
 
 ## ✨ Tính Năng Chính
