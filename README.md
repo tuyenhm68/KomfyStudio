@@ -39,6 +39,10 @@
 - **Text-to-Image (T2I)**: Tạo ảnh từ mô tả văn bản
 - **Image-to-Image (I2I)**: Chỉnh sửa và biến đổi ảnh
 - **Photo Restore**: Phục hồi và nâng cao chất lượng ảnh cũ
+- **Clothes Transfer**: Chuyển quần áo giữa các ảnh
+  - Trích xuất quần áo từ ảnh tham chiếu
+  - Chuyển quần áo sang nhân vật khác
+  - Hỗ trợ 2 chế độ: Extract + Transfer hoặc Transfer trực tiếp
 - Hỗ trợ nhiều định dạng: Landscape, Square, Portrait
 
 ### 🎬 Tạo Video AI
@@ -154,6 +158,36 @@
 5. Click **Generate**
 6. Xem kết quả so sánh trước/sau
 7. Click **Compare** để xem chi tiết
+
+### Chuyển Quần Áo (Clothes Transfer)
+
+**Chế độ 1: Trích xuất + Chuyển (Extract + Transfer)**
+
+1. Chọn tab **Apps** → **Image**
+2. Chọn app **Clothes Transfer**
+3. Upload **ảnh nhân vật chính** (Input 1) - người sẽ mặc quần áo mới
+4. Upload **ảnh tham chiếu** (Input 2) - người đang mặc quần áo bạn muốn
+5. Click **Generate**
+6. Hệ thống sẽ tự động:
+   - Trích xuất quần áo từ ảnh tham chiếu
+   - Chuyển quần áo sang nhân vật chính
+7. Xem kết quả trong panel **Preview**
+
+**Chế độ 2: Chuyển trực tiếp (Direct Transfer)**
+
+1. Chọn tab **Apps** → **Image**
+2. Chọn app **Clothes Transfer**
+3. Upload **ảnh nhân vật chính** (Input 1)
+4. Upload **ảnh quần áo đã trích xuất** (Input 3) - chỉ có quần áo, không có người
+5. Click **Generate**
+6. Xem kết quả trong panel **Preview**
+
+**💡 Lưu ý:**
+- Input 2 (ảnh tham chiếu) và Input 3 (quần áo đã trích xuất) **loại trừ lẫn nhau**
+- Chỉ upload 1 trong 2: hoặc Input 2 hoặc Input 3
+- Kết quả tự động lưu vào dự án đang active
+- App tự động lưu cache để bạn có thể quay lại tiếp tục
+- Hỗ trợ định dạng: PNG, JPG, WebP
 
 ### Quản Lý Dự Án
 
