@@ -5,6 +5,8 @@
 [![Phiên bản](https://img.shields.io/github/v/release/tuyenhm68/KomfyStudio)](https://github.com/tuyenhm68/KomfyStudio/releases)
 [![Tải xuống](https://img.shields.io/github/downloads/tuyenhm68/KomfyStudio/total)](https://github.com/tuyenhm68/KomfyStudio/releases)
 
+🇻🇳 Tiếng Việt | [🇬🇧 English](./README.en.md)
+
 ---
 
 ## 📥 Tải Xuống
@@ -43,6 +45,14 @@
   - Trích xuất quần áo từ ảnh tham chiếu
   - Chuyển quần áo sang nhân vật khác
   - Hỗ trợ 2 chế độ: Extract + Transfer hoặc Transfer trực tiếp
+- **Multi-Angle Camera**: Tạo ảnh từ nhiều góc nhìn 3D
+  - Điều khiển góc camera bằng giao diện 3D trực quan
+  - Xem trước góc nhìn real-time với mô hình 3D
+  - Tự động tạo prompt dựa trên góc camera
+  - Hỗ trợ model Flux2-Klein 9B
+- **Style Changing**: Chuyển đổi phong cách ảnh
+  - Nhiều preset phong cách: Anime, Sketch, Lego, Ghibli, v.v.
+  - Tùy chỉnh prompt để tạo phong cách riêng
 - Hỗ trợ nhiều định dạng: Landscape, Square, Portrait
 
 ### 🎬 Tạo Video AI
@@ -188,6 +198,29 @@
 - Kết quả tự động lưu vào dự án đang active
 - App tự động lưu cache để bạn có thể quay lại tiếp tục
 - Hỗ trợ định dạng: PNG, JPG, WebP
+
+### Tạo Ảnh Đa Góc Nhìn (Multi-Angle Camera)
+
+1. Chọn tab **Apps** → **Image**
+2. Chọn app **Multi-Angle Camera**
+3. Upload **ảnh nhân vật** - ảnh gốc bạn muốn tạo lại từ góc khác
+4. Sử dụng **giao diện 3D** để điều chỉnh góc camera:
+   - **Kéo chuột trái**: Xoay camera quanh đối tượng
+   - **Cuộn chuột**: Zoom in/out
+   - **Nút Reset**: Đặt lại góc camera về mặc định
+5. Xem **thông tin góc camera** real-time:
+   - Azimuth (góc ngang): -180° đến 180°
+   - Polar (góc dọc): 0° đến 180°
+   - Zoom: Khoảng cách camera
+6. Prompt sẽ **tự động cập nhật** dựa trên góc camera bạn chọn
+7. Click **Generate** để tạo ảnh
+8. Xem kết quả trong panel **Preview**
+
+**💡 Lưu ý:**
+- Model Flux2-Klein 9B cần ~12GB VRAM
+- Góc camera càng khác biệt, kết quả càng sáng tạo
+- Có thể chỉnh sửa prompt tự động để tinh chỉnh kết quả
+- Kết quả tự động lưu vào dự án đang active
 
 ### Quản Lý Dự Án
 
