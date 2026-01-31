@@ -1,0 +1,36 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Large Files (use Git LFS if needed)
+*.psd
+*.ai
+*.sketch
+
+# Backup Files
+*.bak
+*.backup
+*-backup.*
+
+# Node modules (if any build tools)
+node_modules/
+
+# Build outputs
+dist/
+build/
+STRUCTURE.md
+docs/README.md

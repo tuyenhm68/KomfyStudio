@@ -1,25 +1,27 @@
 # 🎨 KomfyStudio
 
+![KomfyStudio](assets/images/banner/komfy-studio.png)
+
 **Ứng dụng tạo ảnh & video AI được hỗ trợ bởi ComfyUI**
 
-[![Phiên bản](https://img.shields.io/github/v/release/tuyenhm68/KomfyStudio)](https://github.com/tuyenhm68/KomfyStudio/releases)
-[![Tải xuống](https://img.shields.io/github/downloads/tuyenhm68/KomfyStudio/total)](https://github.com/tuyenhm68/KomfyStudio/releases)
+<a href="https://github.com/tuyenhm68/KomfyStudio/releases" target="_blank"><img src="https://img.shields.io/github/v/release/tuyenhm68/KomfyStudio" alt="Phiên bản"></a>
+<a href="https://github.com/tuyenhm68/KomfyStudio/releases" target="_blank"><img src="https://img.shields.io/github/downloads/tuyenhm68/KomfyStudio/total" alt="Tải xuống"></a>
 
-🇻🇳 Tiếng Việt | [🇬🇧 English](./README.en.md)
+🇻🇳 Tiếng Việt | <a href="./README.en.md" target="_blank">🇬🇧 English</a>
 
 ---
 
 ## 📥 Tải Xuống
 
-**[⬇️ Tải phiên bản mới nhất](https://github.com/tuyenhm68/KomfyStudio/releases/latest)**
+**<a href="https://github.com/tuyenhm68/KomfyStudio/releases/latest" target="_blank">⬇️ Tải phiên bản mới nhất</a>**
 
-**[⬇️ Comfy Portable dành cho KomfyStudio](https://drive.google.com/file/d/1De-0ZK_Igly5iFKwfKAUd4V6Vj87XDl4/view?usp=drive_link)**
+**<a href="https://drive.google.com/file/d/1De-0ZK_Igly5iFKwfKAUd4V6Vj87XDl4/view?usp=drive_link" target="_blank">⬇️ Comfy Portable dành cho KomfyStudio</a>**
 
-**[⬇️ Comfy Modal Notebook dành cho KomfyStudio](https://modal.com/notebooks/tuyenhm68/main/nb-DbCzbt5HUwPCz49YjN1W94)**
+**<a href="https://modal.com/notebooks/tuyenhm68/main/nb-DbCzbt5HUwPCz49YjN1W94" target="_blank">⬇️ Comfy Modal Notebook dành cho KomfyStudio</a>**
 
-**[⬇️ Comfy Colab Notebook dành cho KomfyStudio](https://colab.research.google.com/drive/1qkMhPoRUL9zsoj-ogX-gx6Hw-9zi2Hgx?usp=sharing)**
+**<a href="https://colab.research.google.com/drive/1qkMhPoRUL9zsoj-ogX-gx6Hw-9zi2Hgx?usp=sharing" target="_blank">⬇️ Comfy Colab Notebook dành cho KomfyStudio</a>**
 
-**[⬇️ Comfy Runpod serverless template dành cho KomfyStudio](https://console.runpod.io/deploy?template=c2clojkox5&ref=rpuub8vb)**
+**<a href="https://console.runpod.io/deploy?template=c2clojkox5&ref=rpuub8vb" target="_blank">⬇️ Comfy Runpod serverless template dành cho KomfyStudio</a>**
 
 ### Yêu Cầu Hệ Thống
 
@@ -31,7 +33,7 @@
 - 100GB+ dung lượng trống để cài ComfyUI (Khuyến nghị ổ SSD 500GB trở lên)
 
 ### Hướng Dẫn
-**[Video Hướng dẫn cài đặt và sử dụng](https://www.youtube.com/playlist?list=PL9QrPbhu7dy_iW_QMaWAlyWKEoXncJnYp)
+**<a href="https://www.youtube.com/playlist?list=PL9QrPbhu7dy_iW_QMaWAlyWKEoXncJnYp" target="_blank">Video Hướng dẫn cài đặt và sử dụng</a>**
 ---
 
 ## ✨ Tính Năng Chính
@@ -103,8 +105,8 @@
 
 ### Bước 1: Tải Installer
 
-1. Vào [Releases](https://github.com/tuyenhm68/KomfyStudio/releases/latest), tải file `KomfyStudio-Setup-x.x.x.exe`
-2. Tải ComfyUI Portable [(Theo link)](https://bit.ly/4rdBPOM)
+1. Vào <a href="https://github.com/tuyenhm68/KomfyStudio/releases/latest" target="_blank">Releases</a>, tải file `KomfyStudio-Setup-x.x.x.exe`
+2. Tải ComfyUI Portable <a href="https://bit.ly/4rdBPOM" target="_blank">(Theo link)</a>
 
 ### Bước 2: Cài Đặt
 
@@ -284,7 +286,7 @@
 - Click **Download Update** để tải và cài đặt
 
 **Thủ công**:
-1. Vào [Releases](https://github.com/tuyenhm68/KomfyStudio/releases/latest)
+1. Vào <a href="https://github.com/tuyenhm68/KomfyStudio/releases/latest" target="_blank">Releases</a>
 2. Tải installer mới nhất
 3. Chạy installer để cập nhật
 
@@ -319,5 +321,5 @@ Copyright © 2026 Hà Mạnh Tuyến
 ---
 
 ## 🔗 Liên Kết
-- **YouTube**: [Kênh YouTube](https://youtube.com/@tuyenhm68)
+- **YouTube**: <a href="https://youtube.com/@tuyenhm68" target="_blank">Kênh YouTube</a>
 ---
