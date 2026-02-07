@@ -69,6 +69,33 @@
 - **Text-to-Audio**: Generate sound and music from descriptions
 - **Text-to-Music**: Generate music from descriptions
 
+### 🏪 App Store
+
+- **Community app marketplace**: Download and install apps shared by the community
+- **One-click installation**: Automatically download and install models, custom nodes
+- **Version management**: Check and update installed apps
+- **Ratings and reviews**: View ratings from other users
+- **Search and filter**: Easily find apps by category, author
+- **Full details**: View models, nodes, dependencies info before installing
+
+**<a href="./docs/user-guide/app-store-guide.en.md" target="_blank">📖 View detailed App Store guide</a>**
+
+### 🛠️ App Builder
+
+- **Create apps without code**: Transform ComfyUI workflows into complete apps
+- **5-step wizard**: Step-by-step guidance for app creation
+  1. Upload workflow JSON
+  2. Configure metadata (name, description, icon, category)
+  3. Design interface with drag-and-drop
+  4. Link controls to workflow parameters
+  5. Preview and publish
+- **Auto-detection**: Analyze workflow, find required models and custom nodes
+- **Flexible UI design**: Drag-drop controls, customize layout
+- **Share to Store**: Publish apps for community use
+- **Version management**: Update and maintain your apps
+
+**<a href="./docs/user-guide/app-builder-guide.en.md" target="_blank">📖 View detailed App Builder guide</a>**
+
 ### 🔧 Backend Management
 
 - **Local Backend**: Run ComfyUI on your computer

@@ -68,6 +68,33 @@
 - **Text-to-Audio**: Tạo âm thanh và nhạc từ mô tả
 - **Text-to-Music**: Tạo nhạc từ mô tả
 
+### 🏪 App Store
+
+- **Kho ứng dụng cộng đồng**: Tải và cài đặt apps do cộng đồng chia sẻ
+- **Cài đặt một chạm**: Tự động tải và cài đặt models, custom nodes
+- **Quản lý phiên bản**: Kiểm tra và cập nhật apps đã cài đặt
+- **Đánh giá và nhận xét**: Xem đánh giá từ người dùng khác
+- **Tìm kiếm và lọc**: Dễ dàng tìm apps theo danh mục, tác giả
+- **Chi tiết đầy đủ**: Xem thông tin models, nodes, dependencies trước khi cài
+
+**<a href="./docs/user-guide/app-store-guide.md" target="_blank">📖 Xem hướng dẫn chi tiết App Store</a>**
+
+### 🛠️ App Builder
+
+- **Tạo app không cần code**: Chuyển ComfyUI workflow thành app hoàn chỉnh
+- **Wizard 5 bước**: Hướng dẫn từng bước tạo app
+  1. Upload workflow JSON
+  2. Cấu hình metadata (tên, mô tả, icon, category)
+  3. Thiết kế giao diện với drag-and-drop
+  4. Liên kết controls với workflow parameters
+  5. Xem trước và xuất bản
+- **Tự động phát hiện**: Phân tích workflow, tìm models và custom nodes cần thiết
+- **Thiết kế UI linh hoạt**: Kéo thả controls, tùy chỉnh layout
+- **Chia sẻ lên Store**: Xuất bản app để cộng đồng sử dụng
+- **Quản lý phiên bản**: Cập nhật và duy trì apps của bạn
+
+**<a href="./docs/user-guide/app-builder-guide.md" target="_blank">📖 Xem hướng dẫn chi tiết App Builder</a>**
+
 ### 🔧 Quản Lý Backend
 
 - **Local Backend**: Chạy ComfyUI trên máy tính của bạn
