@@ -236,23 +236,6 @@
 ---
 
 ## 🔧 Advanced Settings
-
-### Model Management
-
-1. Open **Settings** → **Models Manager**
-2. View list of required models for each workflow
-3. Click **Install** to download model
-4. Monitor download progress
-5. Restart ComfyUI after installation
-
-### Custom Nodes Management
-
-1. Open **Settings** → **Custom Nodes**
-2. View list of installed custom nodes
-3. Click **Install from URL** to install new node
-4. Enter GitHub URL or ZIP URL
-5. Restart ComfyUI after installation
-
 ### API Keys Configuration
 
 1. Open **Settings** → **General**

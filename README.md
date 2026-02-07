@@ -236,22 +236,6 @@
 
 ## 🔧 Cài Đặt Nâng Cao
 
-### Quản Lý Models
-
-1. Mở **Settings** → **Models Manager**
-2. Xem danh sách models cần thiết cho mỗi workflow
-3. Click **Install** để tải model
-4. Theo dõi tiến trình tải xuống
-5. Restart ComfyUI sau khi cài đặt
-
-### Quản Lý Custom Nodes
-
-1. Mở **Settings** → **Custom Nodes**
-2. Xem danh sách custom nodes đã cài
-3. Click **Install from URL** để cài node mới
-4. Nhập GitHub URL hoặc ZIP URL
-5. Restart ComfyUI sau khi cài đặt
-
 ### Cấu Hình API Keys
 
 1. Mở **Settings** → **General**
