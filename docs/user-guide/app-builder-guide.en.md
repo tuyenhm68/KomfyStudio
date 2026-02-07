@@ -400,9 +400,8 @@ Ensure your app:
 
 The system will:
 1. Package app into `.kapp` file
-2. Upload icon to cloud storage
-3. Save metadata to database
-4. Publish app (status: "published")
+2. Upload app and icon
+3. Publish app to App Store
 
 #### 4️⃣ After Publishing
 
@@ -530,7 +529,7 @@ The system will:
 - Verify logged in
 - Verify all required fields filled
 - Check version number (must be > old version if updating)
-- Try again after a few minutes (server may be busy)
+- Try again after a few minutes
 
 ### App Not Appearing in My Apps
 

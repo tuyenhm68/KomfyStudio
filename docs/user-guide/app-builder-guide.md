@@ -400,9 +400,8 @@ Truy cập: **Apps > My Apps** hoặc click **"My Apps"** trong App Builder
 
 Hệ thống sẽ:
 1. Đóng gói app thành file `.kapp`
-2. Upload icon lên cloud storage
-3. Lưu metadata vào database
-4. Publish app (status: "published")
+2. Upload app và icon
+3. Publish app lên App Store
 
 #### 4️⃣ Sau Khi Publish
 
@@ -530,7 +529,7 @@ Hệ thống sẽ:
 - Xác nhận đã đăng nhập
 - Verify tất cả required fields đã điền
 - Kiểm tra version number (phải > version cũ nếu update)
-- Thử lại sau vài phút (có thể server đang bận)
+- Thử lại sau vài phút
 
 ### App Không Xuất Hiện Trong My Apps
 

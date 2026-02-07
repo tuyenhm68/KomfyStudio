@@ -130,7 +130,7 @@ Sorting options (coming soon):
 System will automatically:
 
 1. **Download .kapp file**:
-   - Download package from cloud storage
+   - Download app package
    - Display progress bar
 
 2. **Extract package**:
@@ -263,12 +263,6 @@ Go to **Apps > My Apps** to see:
 - Dependencies (models, nodes) are NOT deleted
 - Can reinstall from Store anytime
 
-#### 📤 Export
-
-- Export app as `.kapp` file
-- Backup or share with others
-- Import to another machine
-
 ---
 
 ## 📤 Publishing Applications
@@ -340,7 +334,6 @@ See details in [App Builder Guide - Publishing Section](app-builder-guide.en.md#
 
 - ✅ Regularly check for updates
 - ✅ Uninstall unused apps to save space
-- ✅ Backup important apps (Export .kapp)
 - ✅ Organize apps by category
 - ✅ Rate and review used apps (coming soon)
 
@@ -354,7 +347,6 @@ See details in [App Builder Guide - Publishing Section](app-builder-guide.en.md#
 
 **Solution**:
 - Check internet connection
-- Verify API endpoint: `https://komfy-admin.pages.dev/api`
 - Try refreshing page (Ctrl+R)
 - Check if firewall/antivirus is blocking
 - View console logs for debugging

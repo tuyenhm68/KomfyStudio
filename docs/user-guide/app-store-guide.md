@@ -130,7 +130,7 @@ Các tùy chọn sắp xếp (sắp có):
 Hệ thống sẽ tự động:
 
 1. **Download .kapp file**:
-   - Tải package từ cloud storage
+   - Tải app package
    - Hiển thị progress bar
 
 2. **Extract package**:
@@ -263,12 +263,6 @@ Vào **Apps > My Apps** để xem:
 - Dependencies (models, nodes) KHÔNG bị xóa
 - Có thể cài đặt lại từ Store bất kỳ lúc nào
 
-#### 📤 Export
-
-- Export app thành file `.kapp`
-- Backup hoặc chia sẻ với người khác
-- Import vào máy khác
-
 ---
 
 ## 📤 Xuất Bản Ứng Dụng
@@ -340,7 +334,6 @@ Chi tiết xem tại [App Builder Guide - Publishing Section](app-builder-guide.
 
 - ✅ Thường xuyên check updates
 - ✅ Uninstall apps không dùng để tiết kiệm dung lượng
-- ✅ Backup apps quan trọng (Export .kapp)
 - ✅ Organize apps theo category
 - ✅ Đánh giá và review apps đã dùng (sắp có)
 
@@ -354,7 +347,6 @@ Chi tiết xem tại [App Builder Guide - Publishing Section](app-builder-guide.
 
 **Giải pháp**:
 - Kiểm tra kết nối internet
-- Verify API endpoint: `https://komfy-admin.pages.dev/api`
 - Thử refresh trang (Ctrl+R)
 - Kiểm tra firewall/antivirus có chặn không
 - Xem console logs để debug
