@@ -15,6 +15,7 @@
   - [Step 4: Design Interface](#step-4-design-interface)
   - [Step 5: Preview & Deploy](#step-5-preview--deploy)
 - [App Management](#app-management)
+  - [Export / Import App](#-export-app)
 - [Publishing to App Store](#publishing-to-app-store)
 - [Tips & Best Practices](#tips--best-practices)
 - [Troubleshooting](#troubleshooting)
@@ -224,10 +225,6 @@ This step allows you to design the app layout with a drag-and-drop interface.
   - Display static text
   - Instructions, notes
 
-- **Divider**:
-  - Separate sections
-  - Organize layout
-
 - **Group/Container**:
   - Group controls together
   - Collapsible sections
@@ -356,14 +353,50 @@ Access: **Apps > My Apps** or click **"My Apps"** in App Builder
 2. Confirm deletion
 3. ⚠️ **Warning**: Cannot recover after deletion
 
-##### 📤 Export
+##### 📤 Export App
 
-1. Click **Export icon** (📤)
-2. Choose save location for `.kapp` file
-3. Use for:
-   - Backup application
-   - Share with others
-   - Import to another machine
+The Export feature allows you to package your application into a `.kapp` file for backup, sharing, or transferring to another machine.
+
+###### How to Export:
+
+1. Open **My Apps** (Apps → My Apps or click "See more")
+2. Find the app you want to export
+3. Click the **⋯ menu** on the app card → select **"Export"** (📤)
+4. Choose a save location on your computer
+5. The `.kapp` file will be saved with a name like `app_name.kapp`
+
+###### Use cases for `.kapp` files:
+
+- 💾 **Backup**: Save your app before deleting or updating
+- 🤝 **Share**: Send the file to colleagues or friends
+- 💻 **Transfer**: Import into Komfy Studio on another computer
+- 📦 **Archive**: Store older versions
+
+##### 📥 Import App
+
+The Import feature allows you to install applications from `.kapp` files.
+
+###### How to Import:
+
+1. Open **My Apps** (Apps → My Apps or click "See more")
+2. Click the **"Import App"** (📥) button in the top right corner
+3. Select a `.kapp` file from your computer
+4. The system will automatically extract the package, read metadata, workflow, and UI layout
+5. The app will appear in **My Apps** after successful import
+
+###### Duplicate Name Handling:
+
+If an app with the same name already exists in your library:
+- The system will show a **confirmation dialog**
+- You can choose to import under the name **"[App Name] Copy"**
+- Or cancel the import if you prefer not to proceed
+
+###### Important Notes:
+
+- ⚠️ **Dependencies**: After importing, check if the required models and custom nodes are installed
+- ⚠️ **Version**: The imported app retains its original version number
+- ✅ **Store Link**: If the original app was published to the App Store, the store link is preserved for receiving updates
+- ✅ **Custom Icon**: Custom icons (if any) are imported along with the app
 
 ##### 🌐 Publish
 
@@ -555,5 +588,5 @@ If you encounter issues not listed above:
 
 ---
 
-**Last Updated**: 2026-02-06  
-**Version**: 1.0.0
+**Last Updated**: 2026-02-10  
+**Version**: 1.1.0

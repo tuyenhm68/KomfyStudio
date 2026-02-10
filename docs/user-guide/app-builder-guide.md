@@ -15,6 +15,7 @@
   - [Bước 4: Thiết Kế Giao Diện](#bước-4-thiết-kế-giao-diện)
   - [Bước 5: Xem Trước & Triển Khai](#bước-5-xem-trước--triển-khai)
 - [Quản Lý Ứng Dụng](#quản-lý-ứng-dụng)
+  - [Export / Import App](#📤-xuất-app-export)
 - [Xuất Bản Lên App Store](#xuất-bản-lên-app-store)
 - [Tips & Best Practices](#tips--best-practices)
 - [Xử Lý Sự Cố](#xử-lý-sự-cố)
@@ -224,10 +225,6 @@ Bước này cho phép bạn thiết kế layout của ứng dụng với drag-a
   - Hiển thị text tĩnh
   - Hướng dẫn, ghi chú
 
-- **Divider**:
-  - Phân chia sections
-  - Tổ chức layout
-
 - **Group/Container**:
   - Nhóm các controls lại
   - Collapsible sections
@@ -356,14 +353,50 @@ Truy cập: **Apps > My Apps** hoặc click **"My Apps"** trong App Builder
 2. Xác nhận xóa
 3. ⚠️ **Cảnh báo**: Không thể khôi phục sau khi xóa
 
-##### 📤 Xuất (Export)
+##### 📤 Xuất App (Export)
 
-1. Click **icon Export** (📤)
-2. Chọn vị trí lưu file `.kapp`
-3. Sử dụng để:
-   - Backup ứng dụng
-   - Chia sẻ với người khác
-   - Import vào máy khác
+Tính năng Export cho phép bạn đóng gói ứng dụng thành file `.kapp` để backup, chia sẻ hoặc chuyển sang máy khác.
+
+###### Cách Export:
+
+1. Mở **My Apps** (Apps → My Apps hoặc click "See more")
+2. Tìm app bạn muốn export
+3. Click **menu ⋯** trên app card → chọn **"Export"** (📤)
+4. Chọn vị trí lưu file trên máy tính
+5. File `.kapp` sẽ được lưu với tên dạng `ten_app.kapp`
+
+###### Sử dụng file `.kapp`:
+
+- 💾 **Backup**: Sao lưu ứng dụng trước khi xóa hoặc cập nhật
+- 🤝 **Chia sẻ**: Gửi file cho đồng nghiệp hoặc bạn bè
+- 💻 **Chuyển máy**: Import vào Komfy Studio trên máy tính khác
+- 📦 **Lưu trữ**: Archive các phiên bản cũ
+
+##### 📥 Nhập App (Import)
+
+Tính năng Import cho phép bạn cài đặt ứng dụng từ file `.kapp`.
+
+###### Cách Import:
+
+1. Mở **My Apps** (Apps → My Apps hoặc click "See more")
+2. Click nút **"Import App"** (📥) ở góc trên bên phải
+3. Chọn file `.kapp` từ máy tính
+4. Hệ thống sẽ tự động giải nén package, đọc metadata, workflow, và UI layout
+5. App sẽ xuất hiện trong **My Apps** sau khi import thành công
+
+###### Xử Lý Trùng Tên:
+
+Nếu đã có app cùng tên trong thư viện:
+- Hệ thống sẽ hiện **dialog xác nhận**
+- Bạn có thể chọn import dưới tên **"[Tên App] Copy"**
+- Hoặc hủy import nếu không muốn
+
+###### Lưu Ý Quan Trọng:
+
+- ⚠️ **Dependencies**: Sau khi import, kiểm tra xem models và custom nodes cần thiết đã được cài đặt chưa
+- ⚠️ **Version**: App import sẽ giữ nguyên version gốc
+- ✅ **Store Link**: Nếu app gốc đã publish lên App Store, liên kết store sẽ được giữ lại để nhận updates
+- ✅ **Custom Icon**: Icon tùy chỉnh (nếu có) sẽ được import cùng app
 
 ##### 🌐 Xuất Bản (Publish)
 
@@ -555,5 +588,5 @@ Nếu gặp vấn đề không được liệt kê ở trên:
 
 ---
 
-**Cập nhật lần cuối**: 2026-02-06  
-**Phiên bản**: 1.0.0
+**Cập nhật lần cuối**: 2026-02-10  
+**Phiên bản**: 1.1.0
