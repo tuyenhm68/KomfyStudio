@@ -144,6 +144,29 @@
 
 ---
 
+## 🔌 Komfy Bridge — Chrome Extension
+
+> Extension kết nối Komfy Studio với **Google Flow**, cho phép tạo video AI bằng mô hình **Veo 3.1** của Google trực tiếp trong Workflow Builder — không cần API key.
+
+### Cài đặt
+
+Extension được cài **tự động** từ phiên bản v0.1.39 trở lên:
+
+1. Mở **Settings** → tab **Extension** → nhấn **Install Now** (hoặc tự cài khi khởi động)
+2. Copy đường dẫn extension hiển thị
+3. Mở Chrome → `chrome://extensions` → bật **Developer mode** → **Load unpacked** → dán đường dẫn
+
+### Cách dùng
+
+1. Mở **Komfy Studio** (chạy trước) + mở Chrome → vào <a href="https://labs.google/fx/tools/flow" target="_blank">Google Flow</a> → đăng nhập
+2. Trạng thái **Connected** xuất hiện trong Settings → Extension
+3. Trong Workflow Builder, thêm node **Veo 3.1** → bật **"Use Google Flow"** → nhấn Run
+
+**<a href="./docs/user-guide/chrome-extension-guide.md" target="_blank">📖 Xem hướng dẫn đầy đủ</a>** | **<a href="https://github.com/tuyenhm68/komfy-extension/releases" target="_blank">📦 GitHub Releases</a>**
+
+
+---
+
 ## 🚀 Cài Đặt
 
 ### Bước 1: Tải Installer
