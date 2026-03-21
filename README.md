@@ -28,9 +28,10 @@
 - **Hệ điều hành**: Windows 10/11
 - **RAM**: Tối thiểu 12GB (Khuyến nghị 32GB+)
 - **GPU**: NVIDIA GPU với CUDA support từ 12GB VRAM trở lên (Khuyến nghị 24GB+ VRAM)
+  > ⚠️ **Lưu ý:** GPU NVIDIA chỉ yêu cầu khi sử dụng backend **ComfyUI** (Local/VPS/Serverless). Nếu bạn chỉ sử dụng **Workflow Builder** để tạo ảnh/video thông qua **Google Gemini API** hoặc **Google Flows** thì **không cần GPU NVIDIA** — có thể chạy trên mọi máy tính.
 - **Dung lượng ổ cứng**: 
-- 200MB dung lượng trống để cài app
-- 100GB+ dung lượng trống để cài ComfyUI (Khuyến nghị ổ SSD 500GB trở lên)
+  - 200MB dung lượng trống để cài app
+  - 100GB+ dung lượng trống để cài ComfyUI (Khuyến nghị ổ SSD 500GB trở lên) — *chỉ cần khi sử dụng backend ComfyUI*
 
 ### Hướng Dẫn
 **<a href="https://www.youtube.com/playlist?list=PL9QrPbhu7dy_iW_QMaWAlyWKEoXncJnYp" target="_blank">Video Hướng dẫn cài đặt và sử dụng</a>**

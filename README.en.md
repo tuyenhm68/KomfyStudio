@@ -28,9 +28,10 @@
 - **OS**: Windows 10/11
 - **RAM**: Minimum 12GB (Recommended 32GB+)
 - **GPU**: NVIDIA GPU with CUDA support, 12GB+ VRAM (Recommended 24GB+ VRAM)
+  > ⚠️ **Note:** NVIDIA GPU is only required when using the **ComfyUI** backend (Local/VPS/Serverless). If you only use the **Workflow Builder** to generate images/videos via **Google Gemini API** or **Google Flows**, **no NVIDIA GPU is needed** — the app can run on any computer.
 - **Storage**: 
   - 200MB for app installation
-  - 100GB+ for ComfyUI installation (Recommended 500GB+ SSD)
+  - 100GB+ for ComfyUI installation (Recommended 500GB+ SSD) — *only required when using ComfyUI backend*
 
 ### Tutorials
 **<a href="https://www.youtube.com/playlist?list=PL9QrPbhu7dy_iW_QMaWAlyWKEoXncJnYp" target="_blank">Video Tutorials (Installation & Usage)</a>**
