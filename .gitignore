@@ -34,3 +34,6 @@ dist/
 build/
 STRUCTURE.md
 docs/README.md
+
+# Chrome extension builds
+chrome-extension/

@@ -2,412 +2,412 @@
 
 ![KomfyStudio](assets/images/banner/komfy-studio.png)
 
-**Ứng dụng tạo ảnh & video AI được hỗ trợ bởi ComfyUI**
+**AI Image & Video Generation App powered by ComfyUI**
 
-<a href="https://github.com/tuyenhm68/KomfyStudio/releases" target="_blank"><img src="https://img.shields.io/github/v/release/tuyenhm68/KomfyStudio" alt="Phiên bản"></a>
-<a href="https://github.com/tuyenhm68/KomfyStudio/releases" target="_blank"><img src="https://img.shields.io/github/downloads/tuyenhm68/KomfyStudio/total" alt="Tải xuống"></a>
+<a href="https://github.com/tuyenhm68/KomfyStudio/releases" target="_blank"><img src="https://img.shields.io/github/v/release/tuyenhm68/KomfyStudio" alt="Version"></a>
+<a href="https://github.com/tuyenhm68/KomfyStudio/releases" target="_blank"><img src="https://img.shields.io/github/downloads/tuyenhm68/KomfyStudio/total" alt="Downloads"></a>
 
-🇻🇳 Tiếng Việt | <a href="./README.en.md" target="_blank">🇬🇧 English</a>
+<a href="./README.vi.md" target="_blank">🇻🇳 Tiếng Việt</a> | 🇬🇧 English
 
 ---
 
-## 📥 Tải Xuống
+## 📥 Download
 
-**<a href="https://github.com/tuyenhm68/KomfyStudio/releases/latest" target="_blank">⬇️ Tải phiên bản mới nhất</a>**
+**<a href="https://github.com/tuyenhm68/KomfyStudio/releases/latest" target="_blank">⬇️ Download Latest Version</a>**
 
-**<a href="https://drive.google.com/file/d/1De-0ZK_Igly5iFKwfKAUd4V6Vj87XDl4/view?usp=drive_link" target="_blank">⬇️ Comfy Portable dành cho KomfyStudio</a>**
+**<a href="https://drive.google.com/file/d/1De-0ZK_Igly5iFKwfKAUd4V6Vj87XDl4/view?usp=drive_link" target="_blank">⬇️ ComfyUI Portable for KomfyStudio</a>**
 
-**<a href="https://modal.com/notebooks/tuyenhm68/main/nb-DbCzbt5HUwPCz49YjN1W94" target="_blank">⬇️ Comfy Modal Notebook dành cho KomfyStudio</a>**
+**<a href="https://modal.com/notebooks/tuyenhm68/main/nb-DbCzbt5HUwPCz49YjN1W94" target="_blank">⬇️ ComfyUI Modal Notebook for KomfyStudio</a>**
 
-**<a href="https://colab.research.google.com/drive/1qkMhPoRUL9zsoj-ogX-gx6Hw-9zi2Hgx?usp=sharing" target="_blank">⬇️ Comfy Colab Notebook dành cho KomfyStudio</a>**
+**<a href="https://colab.research.google.com/drive/1qkMhPoRUL9zsoj-ogX-gx6Hw-9zi2Hgx?usp=sharing" target="_blank">⬇️ ComfyUI Colab Notebook for KomfyStudio</a>**
 
-**<a href="https://console.runpod.io/deploy?template=c2clojkox5&ref=rpuub8vb" target="_blank">⬇️ Comfy Runpod serverless template dành cho KomfyStudio</a>**
+**<a href="https://console.runpod.io/deploy?template=c2clojkox5&ref=rpuub8vb" target="_blank">⬇️ ComfyUI Runpod Serverless Template for KomfyStudio</a>**
 
-### Yêu Cầu Hệ Thống
+### System Requirements
 
-- **Hệ điều hành**: Windows 10/11
-- **RAM**: Tối thiểu 12GB (Khuyến nghị 32GB+)
-- **GPU**: NVIDIA GPU với CUDA support từ 12GB VRAM trở lên (Khuyến nghị 24GB+ VRAM)
-  > ⚠️ **Lưu ý:** GPU NVIDIA chỉ yêu cầu khi sử dụng backend **ComfyUI** (Local/VPS/Serverless). Nếu bạn chỉ sử dụng **Workflow Builder** để tạo ảnh/video thông qua **Google Gemini API** hoặc **Google Flows** thì **không cần GPU NVIDIA** — có thể chạy trên mọi máy tính.
-- **Dung lượng ổ cứng**: 
-  - 200MB dung lượng trống để cài app
-  - 100GB+ dung lượng trống để cài ComfyUI (Khuyến nghị ổ SSD 500GB trở lên) — *chỉ cần khi sử dụng backend ComfyUI*
+- **OS**: Windows 10/11
+- **RAM**: Minimum 12GB (Recommended 32GB+)
+- **GPU**: NVIDIA GPU with CUDA support, 12GB+ VRAM (Recommended 24GB+ VRAM)
+  > ⚠️ **Note:** NVIDIA GPU is only required when using the **ComfyUI** backend (Local/VPS/Serverless). If you only use the **Workflow Builder** to generate images/videos via **Google Gemini API** or **Google Flows**, **no NVIDIA GPU is needed** — the app can run on any computer.
+- **Storage**: 
+  - 200MB for app installation
+  - 100GB+ for ComfyUI installation (Recommended 500GB+ SSD) — *only required when using ComfyUI backend*
 
-### Hướng Dẫn
-**<a href="https://www.youtube.com/playlist?list=PL9QrPbhu7dy_iW_QMaWAlyWKEoXncJnYp" target="_blank">Video Hướng dẫn cài đặt và sử dụng</a>**
+### Tutorials
+**<a href="https://www.youtube.com/playlist?list=PL9QrPbhu7dy_iW_QMaWAlyWKEoXncJnYp" target="_blank">Video Tutorials (Installation & Usage)</a>**
+
 ---
 
-## ✨ Tính Năng Chính
+## ✨ Key Features
 
-### 🖼️ Tạo Ảnh AI
+### 🖼️ AI Image Generation
 
-- **Text-to-Image (T2I)**: Tạo ảnh từ mô tả văn bản
-- **Image-to-Image (I2I)**: Chỉnh sửa và biến đổi ảnh
-- **Photo Restore**: Phục hồi và nâng cao chất lượng ảnh cũ
-- **Clothes Transfer**: Chuyển quần áo giữa các ảnh
-  - Trích xuất quần áo từ ảnh tham chiếu
-  - Chuyển quần áo sang nhân vật khác
-  - Hỗ trợ 2 chế độ: Extract + Transfer hoặc Transfer trực tiếp
-- **Multi-Angle Camera**: Tạo ảnh từ nhiều góc nhìn 3D
-  - Điều khiển góc camera bằng giao diện 3D trực quan
-  - Xem trước góc nhìn real-time với mô hình 3D
-  - Tự động tạo prompt dựa trên góc camera
-  - Hỗ trợ model Flux2-Klein 9B
-- **Style Changing**: Chuyển đổi phong cách ảnh
-  - Nhiều preset phong cách: Anime, Sketch, Lego, Ghibli, v.v.
-  - Tùy chỉnh prompt để tạo phong cách riêng
-- Hỗ trợ nhiều định dạng: Landscape, Square, Portrait
+- **Text-to-Image (T2I)**: Generate images from text descriptions
+- **Image-to-Image (I2I)**: Edit and transform images
+- **Photo Restore**: Restore and enhance old photos
+- **Clothes Transfer**: Transfer clothing between images
+  - Extract clothing from reference image
+  - Transfer clothing to another character
+  - Support 2 modes: Extract + Transfer or Direct Transfer
+- **Multi-Angle Camera**: Generate images from multiple 3D viewpoints
+  - Control camera angle with intuitive 3D interface
+  - Real-time preview with 3D model
+  - Auto-generate prompts based on camera angle
+  - Support Flux2-Klein 9B model
+- **Style Changing**: Transform image styles
+  - Multiple style presets: Anime, Sketch, Lego, Ghibli, etc.
+  - Customize prompts for unique styles
+- Support multiple formats: Landscape, Square, Portrait
 
-### 🎬 Tạo Video AI
+### 🎬 AI Video Generation
 
-- **Text-to-Video (T2V)**: Tạo video từ mô tả văn bản
-- **Image-to-Video (I2V)**: Chuyển ảnh tĩnh thành video động
-- Hỗ trợ nhiều tỷ lệ khung hình
+- **Text-to-Video (T2V)**: Generate videos from text descriptions
+- **Image-to-Video (I2V)**: Convert static images to dynamic videos
+- Support multiple aspect ratios
 
-### 🎵 Tạo Âm Thanh AI
+### 🎵 AI Audio Generation
 
-- **Text-to-Audio**: Tạo âm thanh và nhạc từ mô tả
-- **Text-to-Music**: Tạo nhạc từ mô tả
+- **Text-to-Audio**: Generate sound and music from descriptions
+- **Text-to-Music**: Generate music from descriptions
 
 ### 🏪 App Store
 
-- **Kho ứng dụng cộng đồng**: Tải và cài đặt apps do cộng đồng chia sẻ
-- **Cài đặt một chạm**: Tự động tải và cài đặt models, custom nodes
-- **Quản lý phiên bản**: Kiểm tra và cập nhật apps đã cài đặt
-- **Đánh giá và nhận xét**: Xem đánh giá từ người dùng khác
-- **Tìm kiếm và lọc**: Dễ dàng tìm apps theo danh mục, tác giả
-- **Chi tiết đầy đủ**: Xem thông tin models, nodes, dependencies trước khi cài
+- **Community app marketplace**: Download and install apps shared by the community
+- **One-click installation**: Automatically download and install models, custom nodes
+- **Version management**: Check and update installed apps
+- **Ratings and reviews**: View ratings from other users
+- **Search and filter**: Easily find apps by category, author
+- **Full details**: View models, nodes, dependencies info before installing
 
-**<a href="./docs/user-guide/app-store-guide.md" target="_blank">📖 Xem hướng dẫn chi tiết App Store</a>**
+**<a href="./docs/user-guide/app-store-guide.en.md" target="_blank">📖 View detailed App Store guide</a>**
 
 ### 🛠️ App Builder
 
-- **Tạo app không cần code**: Chuyển ComfyUI workflow thành app hoàn chỉnh
-- **Wizard 5 bước**: Hướng dẫn từng bước tạo app
+- **Create apps without code**: Transform ComfyUI workflows into complete apps
+- **5-step wizard**: Step-by-step guidance for app creation
   1. Upload workflow JSON
-  2. Cấu hình metadata (tên, mô tả, icon, category)
-  3. Thiết kế giao diện với drag-and-drop
-  4. Liên kết controls với workflow parameters
-  5. Xem trước và xuất bản
-- **Tự động phát hiện**: Phân tích workflow, tìm models và custom nodes cần thiết
-- **Thiết kế UI linh hoạt**: Kéo thả controls, tùy chỉnh layout
-- **Chia sẻ lên Store**: Xuất bản app để cộng đồng sử dụng
-- **Quản lý phiên bản**: Cập nhật và duy trì apps của bạn
+  2. Configure metadata (name, description, icon, category)
+  3. Design interface with drag-and-drop
+  4. Link controls to workflow parameters
+  5. Preview and publish
+- **Auto-detection**: Analyze workflow, find required models and custom nodes
+- **Flexible UI design**: Drag-drop controls, customize layout
+- **Share to Store**: Publish apps for community use
+- **Version management**: Update and maintain your apps
 
-**<a href="./docs/user-guide/app-builder-guide.md" target="_blank">📖 Xem hướng dẫn chi tiết App Builder</a>**
+**<a href="./docs/user-guide/app-builder-guide.en.md" target="_blank">📖 View detailed App Builder guide</a>**
 
 ### 🔗 Workflow Builder
 
-- **Trình tạo workflow trực quan**: Xây dựng pipeline AI bằng kéo thả node
-- **Hỗ trợ đa dạng node**: Text, Image, Video, Audio Input/Output & AI Model nodes
-- **Kết nối thông minh**: Chỉ cho phép kết nối các cổng dữ liệu tương thích
-- **Mẫu có sẵn**: Bắt đầu nhanh với các template workflow phổ biến
-- **Mẫu cộng đồng**: Khám phá và sử dụng workflow được chia sẻ bởi cộng đồng
-  - Mở workflow cộng đồng ở chế độ **Chỉ xem (Read-Only)**
-  - Nhấn **Tạo bản sao** để tạo phiên bản có thể chỉnh sửa
-- **Xuất bản và chia sẻ**: Xuất bản workflow lên cộng đồng
-  - Cập nhật workflow đã xuất bản
-  - Ngừng xuất bản khi cần
-- **Quản lý tài sản**: Upload và quản lý hình ảnh, tệp tin sử dụng trong workflow
-- **Chạy trực tiếp**: Thực thi workflow ngay trên ứng dụng với Google Gemini API
-- **Theo dõi chi phí**: Hiển thị chi phí phiên làm việc realtime
+- **Visual workflow editor**: Build AI pipelines with drag-and-drop nodes
+- **Diverse node types**: Text, Image, Video, Audio Input/Output & AI Model nodes
+- **Smart connections**: Only allows compatible data port connections
+- **Built-in templates**: Quick start with popular workflow templates
+- **Community templates**: Discover and use workflows shared by the community
+  - Open community workflows in **Read-Only** mode
+  - Click **Make a Copy** to create an editable version
+- **Publish and share**: Publish workflows to the community
+  - Update published workflows
+  - Unpublish when needed
+- **Asset management**: Upload and manage images, files used in workflows
+- **Run directly**: Execute workflows within the app using Google Gemini API
+- **Cost tracking**: Display real-time session cost
 
-### 🔧 Quản Lý Backend
+### 🔧 Backend Management
 
-- **Local Backend**: Chạy ComfyUI trên máy tính của bạn
-  - Nút Start/Stop backend tiện lợi
-  - Cấu hình đường dẫn tùy chỉnh
-- **VPS Backend**: Kết nối đến server từ xa sử dụng: VPS, Colab, Runpod
-- **Serverless Backend**: Sử dụng RunPod Serverless
-- Chuyển đổi backend linh hoạt
-- Kiểm tra trạng thái kết nối
+- **Local Backend**: Run ComfyUI on your computer
+  - Convenient Start/Stop backend button
+  - Custom path configuration
+- **VPS Backend**: Connect to remote servers using: VPS, Colab, Runpod
+- **Serverless Backend**: Use RunPod Serverless
+- Flexible backend switching
+- Connection status checking
 
-### 📁 Quản Lý Dự Án
+### 📁 Project Management
 
-- Tổ chức outputs theo dự án
-- Xem lịch sử tạo ảnh/video
-- Tìm kiếm và lọc nhanh
-- Xóa hàng loạt
-- So sánh ảnh trước/sau (Photo Restore)
+- Organize outputs by project
+- View image/video generation history
+- Quick search and filter
+- Bulk delete
+- Before/After comparison (Photo Restore)
 
-### 🎨 Giao Diện Thân Thiện
+### 🎨 User-Friendly Interface
 
-- Giao diện hiện đại, dễ sử dụng
-- Hỗ trợ Tiếng Việt, English
-- Preview real-time khi tạo
-- Zoom và pan ảnh trong modal preview
+- Modern, easy-to-use interface
+- Support Vietnamese, English
+- Real-time preview during generation
+- Zoom and pan images in preview modal
 
-### 🔄 Tự Động Cập Nhật
+### 🔄 Auto Update
 
-- Kiểm tra cập nhật tự động
-- Tải và cài đặt phiên bản mới
-- Thông báo khi có bản cập nhật
+- Automatic update checking
+- Download and install new versions
+- Notifications for updates
 
 ---
 
 ## 🔌 Komfy Bridge — Chrome Extension
 
-> Extension kết nối Komfy Studio với **Google Flow**, cho phép tạo video AI bằng mô hình **Veo 3.1** của Google trực tiếp trong Workflow Builder — không cần API key.
+> A Chrome Extension that connects Komfy Studio to **Google Flow**, enabling AI video generation with **Google's Veo 3.1** model directly in the Workflow Builder — no API key required.
 
-### Cài đặt
+### Installation
 
-Extension được cài **tự động** từ phiên bản v0.1.39 trở lên:
+Extension is **auto-installed** from version v0.1.39 onwards:
 
-1. Mở **Settings** → tab **Extension** → nhấn **Install Now** (hoặc tự cài khi khởi động)
-2. Copy đường dẫn extension hiển thị
-3. Mở Chrome → `chrome://extensions` → bật **Developer mode** → **Load unpacked** → dán đường dẫn
+1. Open **Settings** → **Extension** tab → click **Install Now** (or auto-installs on startup)
+2. Copy the displayed extension path
+3. Open Chrome → `chrome://extensions` → enable **Developer mode** → **Load unpacked** → paste the path
 
-### Cách dùng
+### How to use
 
-1. Mở **Komfy Studio** (chạy trước) + mở Chrome → vào <a href="https://labs.google/fx/tools/flow" target="_blank">Google Flow</a> → đăng nhập
-2. Trạng thái **Connected** xuất hiện trong Settings → Extension
-3. Trong Workflow Builder, thêm node **Veo 3.1** → bật **"Use Google Flow"** → nhấn Run
+1. Open **Komfy Studio** (must be running) + open Chrome → go to <a href="https://labs.google/fx/tools/flow" target="_blank">Google Flow</a> → sign in
+2. **Connected** status appears in Settings → Extension
+3. In Workflow Builder, add a **Veo 3.1** node → enable **"Use Google Flow"** → click Run
 
-**<a href="./docs/user-guide/chrome-extension-guide.md" target="_blank">📖 Xem hướng dẫn đầy đủ</a>** | **<a href="https://github.com/tuyenhm68/komfy-extension/releases" target="_blank">📦 GitHub Releases</a>**
+**<a href="./docs/user-guide/chrome-extension-guide.en.md" target="_blank">📖 View full guide</a>** | **<a href="https://github.com/tuyenhm68/komfy-extension/releases" target="_blank">📦 GitHub Releases</a>**
 
 
 ---
 
-## 🚀 Cài Đặt
+## 🚀 Installation
 
-### Bước 1: Tải Installer
+### Step 1: Download Installer
 
-1. Vào <a href="https://github.com/tuyenhm68/KomfyStudio/releases/latest" target="_blank">Releases</a>, tải file `KomfyStudio-Setup-x.x.x.exe`
-2. Tải ComfyUI Portable <a href="https://bit.ly/4rdBPOM" target="_blank">(Theo link)</a>
+1. Go to <a href="https://github.com/tuyenhm68/KomfyStudio/releases/latest" target="_blank">Releases</a>, download `KomfyStudio-Setup-x.x.x.exe`
+2. Download ComfyUI Portable <a href="https://bit.ly/4rdBPOM" target="_blank">(Link)</a>
 
-### Bước 2: Cài Đặt
+### Step 2: Install
 
-1. Chạy file installer đã tải
-2. Làm theo hướng dẫn trên màn hình
-3. Hoàn tất cài đặt
+1. Run the downloaded installer
+2. Follow on-screen instructions
+3. Complete installation
 
-### Bước 3: Cấu Hình Backend (Tùy chọn)
+### Step 3: Configure Backend (Optional)
 
-#### Sử dụng Local Backend
+#### Using Local Backend
 
-1. Mở **Settings** → **Backend**
-2. Chọn backend **Local**
-3. Click **Browse** để chọn thư mục ComfyUI của bạn
-   - Ví dụ: `E:\ComfyUI_windows_portable`
+1. Open **Settings** → **Backend**
+2. Select **Local** backend
+3. Click **Browse** to select your ComfyUI folder
+   - Example: `E:\ComfyUI_windows_portable`
 4. Click **Save**
-5. Click **Start Backend** để khởi động ComfyUI
-6. Đợi backend kết nối (trạng thái chuyển sang "Connected")
+5. Click **Start Backend** to start ComfyUI
+6. Wait for backend to connect (status changes to "Connected")
 
-#### Sử dụng VPS Backend
+#### Using VPS Backend
 
-1. Mở **Settings** → **Backend**
+1. Open **Settings** → **Backend**
 2. Click **Add Backend**
-3. Chọn type: **VPS**
-4. Nhập thông tin:
-   - Name: Tên backend (ví dụ: "My VPS")
-   - URL: Địa chỉ server (ví dụ: `http://192.168.1.100:8188`)
+3. Select type: **VPS**
+4. Enter information:
+   - Name: Backend name (e.g., "My VPS")
+   - URL: Server address (e.g., `http://192.168.1.100:8188`)
 5. Click **Add**
-6. Click **Test Connection** để kiểm tra
+6. Click **Test Connection** to verify
 
 ---
 
-## 📖 Hướng Dẫn Sử Dụng
+## 📖 Usage Guide
 
-### Tạo Ảnh từ Text (T2I)
+### Generate Image from Text (T2I)
 
-1. Chọn tab **Tools** → **Image**
-2. Chọn app **Text to Image**
-3. Nhập prompt mô tả ảnh bạn muốn
-4. Chọn kích thước và số lượng ảnh
+1. Select **Tools** tab → **Image**
+2. Select **Text to Image** app
+3. Enter prompt describing the image you want
+4. Select size and number of images
 5. Click **Generate**
-6. Xem kết quả trong panel **Preview**
-7. Click **Download** để tải ảnh về
+6. View results in **Preview** panel
+7. Click **Download** to save image
 
-### Tạo Video từ Ảnh (I2V)
+### Generate Video from Image (I2V)
 
-1. Chọn tab **Tools** → **Video**
-2. Chọn app **Image to Video**
-3. Upload ảnh nguồn
-4. Nhập prompt mô tả chuyển động
-5. Chọn thời lượng video
+1. Select **Tools** tab → **Video**
+2. Select **Image to Video** app
+3. Upload source image
+4. Enter prompt describing motion
+5. Select video duration
 6. Click **Generate**
-7. Xem video trong panel **Preview**
+7. View video in **Preview** panel
 
-### Phục Hồi Ảnh Cũ (Photo Restore)
+### Restore Old Photos (Photo Restore)
 
-1. Chọn tab **Tools** → **Image**
-2. Chọn app **Photo Restore**
-3. Upload ảnh cần phục hồi
-4. Nhập prompt mô tả (tùy chọn)
+1. Select **Tools** tab → **Image**
+2. Select **Photo Restore** app
+3. Upload photo to restore
+4. Enter prompt description (optional)
 5. Click **Generate**
-6. Xem kết quả so sánh trước/sau
-7. Click **Compare** để xem chi tiết
+6. View before/after comparison
+7. Click **Compare** for details
 
-### Chuyển Quần Áo (Clothes Transfer)
+### Transfer Clothing (Clothes Transfer)
 
-**Chế độ 1: Trích xuất + Chuyển (Extract + Transfer)**
+**Mode 1: Extract + Transfer**
 
-1. Chọn tab **Apps** → **Image**
-2. Chọn app **Clothes Transfer**
-3. Upload **ảnh nhân vật chính** (Input 1) - người sẽ mặc quần áo mới
-4. Upload **ảnh tham chiếu** (Input 2) - người đang mặc quần áo bạn muốn
+1. Select **Apps** tab → **Image**
+2. Select **Clothes Transfer** app
+3. Upload **main character image** (Input 1) - person who will wear new clothes
+4. Upload **reference image** (Input 2) - person wearing clothes you want
 5. Click **Generate**
-6. Hệ thống sẽ tự động:
-   - Trích xuất quần áo từ ảnh tham chiếu
-   - Chuyển quần áo sang nhân vật chính
-7. Xem kết quả trong panel **Preview**
+6. System will automatically:
+   - Extract clothing from reference image
+   - Transfer clothing to main character
+7. View results in **Preview** panel
 
-**Chế độ 2: Chuyển trực tiếp (Direct Transfer)**
+**Mode 2: Direct Transfer**
 
-1. Chọn tab **Apps** → **Image**
-2. Chọn app **Clothes Transfer**
-3. Upload **ảnh nhân vật chính** (Input 1)
-4. Upload **ảnh quần áo đã trích xuất** (Input 3) - chỉ có quần áo, không có người
+1. Select **Apps** tab → **Image**
+2. Select **Clothes Transfer** app
+3. Upload **main character image** (Input 1)
+4. Upload **extracted clothing image** (Input 3) - only clothing, no person
 5. Click **Generate**
-6. Xem kết quả trong panel **Preview**
+6. View results in **Preview** panel
 
-**💡 Lưu ý:**
-- Input 2 (ảnh tham chiếu) và Input 3 (quần áo đã trích xuất) **loại trừ lẫn nhau**
-- Chỉ upload 1 trong 2: hoặc Input 2 hoặc Input 3
-- Kết quả tự động lưu vào dự án đang active
-- App tự động lưu cache để bạn có thể quay lại tiếp tục
-- Hỗ trợ định dạng: PNG, JPG, WebP
+**💡 Notes:**
+- Input 2 (reference image) and Input 3 (extracted clothing) are **mutually exclusive**
+- Only upload one: either Input 2 or Input 3
+- Results automatically saved to active project
+- App auto-saves cache so you can continue later
+- Supported formats: PNG, JPG, WebP
 
-### Tạo Ảnh Đa Góc Nhìn (Multi-Angle Camera)
+### Multi-Angle Camera
 
-1. Chọn tab **Apps** → **Image**
-2. Chọn app **Multi-Angle Camera**
-3. Upload **ảnh nhân vật** - ảnh gốc bạn muốn tạo lại từ góc khác
-4. Sử dụng **giao diện 3D** để điều chỉnh góc camera:
-   - **Kéo chuột trái**: Xoay camera quanh đối tượng
-   - **Cuộn chuột**: Zoom in/out
-   - **Nút Reset**: Đặt lại góc camera về mặc định
-5. Xem **thông tin góc camera** real-time:
-   - Azimuth (góc ngang): -180° đến 180°
-   - Polar (góc dọc): 0° đến 180°
-   - Zoom: Khoảng cách camera
-6. Prompt sẽ **tự động cập nhật** dựa trên góc camera bạn chọn
-7. Click **Generate** để tạo ảnh
-8. Xem kết quả trong panel **Preview**
+1. Select **Apps** tab → **Image**
+2. Select **Multi-Angle Camera** app
+3. Upload **character image** - original image you want to recreate from different angle
+4. Use **3D interface** to adjust camera angle:
+   - **Left mouse drag**: Rotate camera around object
+   - **Mouse wheel**: Zoom in/out
+   - **Reset button**: Reset camera to default
+5. View **camera angle information** in real-time:
+   - Azimuth (horizontal angle): -180° to 180°
+   - Polar (vertical angle): 0° to 180°
+   - Zoom: Camera distance
+6. Prompt will **auto-update** based on selected camera angle
+7. Click **Generate** to create image
+8. View results in **Preview** panel
 
-**💡 Lưu ý:**
-- Model Flux2-Klein 9B cần ~12GB VRAM
-- Góc camera càng khác biệt, kết quả càng sáng tạo
-- Có thể chỉnh sửa prompt tự động để tinh chỉnh kết quả
-- Kết quả tự động lưu vào dự án đang active
+**💡 Notes:**
+- Flux2-Klein 9B model requires ~12GB VRAM
+- More different camera angles create more creative results
+- Can edit auto-generated prompt to fine-tune results
+- Results automatically saved to active project
 
-### Sử Dụng Workflow Builder
+### Using Workflow Builder
 
-#### Tạo Workflow Mới
+#### Create a New Workflow
 
-1. Chọn tab **Workflows** trên thanh điều hướng chính
-2. Click **+ New Workflow** để tạo workflow mới
-3. Sử dụng **Side Toolbar** bên trái hoặc nhấn **Tab** để mở bảng chọn node
-4. Kéo thả các node vào canvas:
+1. Select the **Workflows** tab on the main navigation
+2. Click **+ New Workflow** to create a new workflow
+3. Use the **Side Toolbar** on the left or press **Tab** to open the node picker
+4. Drag and drop nodes onto the canvas:
    - **Input nodes**: Text Input, Image Upload, Audio Input
-   - **AI Model nodes**: Gemini Nano Banana (ảnh), Veo 3.1 (video)
+   - **AI Model nodes**: Gemini Nano Banana (images), Veo 3.1 (video)
    - **Output nodes**: Text Output, Image Output, Video Output
-5. Kết nối các node bằng cách kéo từ cổng output sang cổng input
-6. Click **Run** để thực thi workflow
+5. Connect nodes by dragging from an output port to an input port
+6. Click **Run** to execute the workflow
 
-#### Sử Dụng Mẫu Cộng Đồng
+#### Using Community Templates
 
-1. Vào tab **Workflows** → chọn tab **Mẫu cộng đồng**
-2. Duyệt danh sách workflow được chia sẻ
-3. Click vào workflow để mở ở chế độ **Chỉ xem (Read-Only)**
-4. Xem cấu trúc node và kết nối
-5. Click **Tạo bản sao** (nút xanh lá trên thanh công cụ) để tạo phiên bản chỉnh sửa được
-6. Chỉnh sửa và lưu bản sao theo ý muốn
+1. Go to **Workflows** tab → select **Community Templates** tab
+2. Browse shared workflows
+3. Click on a workflow to open it in **Read-Only** mode
+4. View node structure and connections
+5. Click **Make a Copy** (green button on toolbar) to create an editable version
+6. Edit and save your copy as needed
 
-#### Xuất Bản Workflow
+#### Publishing a Workflow
 
-1. Mở workflow đã lưu
-2. Click nút **Publish** (hoặc **Update** nếu đã xuất bản)
-3. Điền thông tin: tên, mô tả, danh mục, ảnh bìa
-4. Click **Xuất bản**
-5. Để ngừng xuất bản: click menu **⋯** → **Ngừng xuất bản**
+1. Open a saved workflow
+2. Click the **Publish** button (or **Update** if already published)
+3. Fill in details: name, description, category, cover image
+4. Click **Publish**
+5. To unpublish: click the **⋯** menu → **Unpublish**
 
-**💡 Lưu ý:**
-- Workflow cộng đồng mở ở chế độ chỉ xem, không thể chỉnh sửa trực tiếp
-- Cần tạo bản sao trước khi chỉnh sửa hoặc chạy workflow cộng đồng
-- Chi phí API được hiển thị realtime trên thanh công cụ
-- Workflow được lưu tự động vào cơ sở dữ liệu local
+**💡 Notes:**
+- Community workflows open in read-only mode, cannot be edited directly
+- You need to make a copy before editing or running a community workflow
+- API costs are displayed in real-time on the toolbar
+- Workflows are automatically saved to local database
 
-### Quản Lý Dự Án
+### Project Management
 
-1. Chọn tab **Projects**
-2. Click **New Project** để tạo dự án mới
-3. Tất cả outputs sẽ được lưu vào dự án đang active
-4. Click vào dự án để xem tất cả outputs
-5. Sử dụng tìm kiếm để lọc outputs
-
----
-
-## 🔧 Cài Đặt Nâng Cao
-
-### Cấu Hình API Keys
-
-1. Mở **Settings** → **General**
-2. Nhập Hugging Face token để phục vụ tải các models có giới hạn truy cập
+1. Select **Projects** tab
+2. Click **New Project** to create new project
+3. All outputs will be saved to active project
+4. Click on project to view all outputs
+5. Use search to filter outputs
 
 ---
 
-## ❓ Câu Hỏi Thường Gặp
+## 🔧 Advanced Settings
+### API Keys Configuration
 
-### App không kết nối được với backend?
+1. Open **Settings** → **General**
+2. Enter Hugging Face token to download restricted models
 
-**Giải pháp**:
-1. Kiểm tra ComfyUI đã được cài đặt chưa
-2. Kiểm tra đường dẫn ComfyUI trong Settings đúng chưa
-3. Click **Start Backend** để khởi động
-4. Đợi 10-30 giây để backend khởi động
-5. Click **Test Connection** để kiểm tra
+---
 
-### Tạo ảnh/video bị lỗi?
+## ❓ FAQ
 
-**Giải pháp**:
-1. Kiểm tra backend đang kết nối (trạng thái "Connected")
-2. Kiểm tra models cần thiết đã được cài đặt
-3. Kiểm tra custom nodes đã được cài đặt
-4. Xem logs trong console để biết lỗi cụ thể
+### App can't connect to backend?
 
-### Làm sao để cập nhật app?
+**Solution**:
+1. Check if ComfyUI is installed
+2. Check if ComfyUI path in Settings is correct
+3. Click **Start Backend** to start
+4. Wait 10-30 seconds for backend to start
+5. Click **Test Connection** to verify
 
-**Tự động**:
-- App sẽ tự động kiểm tra cập nhật khi khởi động
-- Thông báo sẽ hiện khi có phiên bản mới
-- Click **Download Update** để tải và cài đặt
+### Image/video generation fails?
 
-**Thủ công**:
-1. Vào <a href="https://github.com/tuyenhm68/KomfyStudio/releases/latest" target="_blank">Releases</a>
-2. Tải installer mới nhất
-3. Chạy installer để cập nhật
+**Solution**:
+1. Check backend is connected (status "Connected")
+2. Check required models are installed
+3. Check custom nodes are installed
+4. View logs in console for specific errors
 
-### Làm sao để gỡ cài đặt?
+### How to update the app?
 
-1. Vào **Settings** → **Apps & Features** (Windows)
-2. Tìm "KomfyStudio"
+**Automatic**:
+- App automatically checks for updates on startup
+- Notification appears when new version available
+- Click **Download Update** to download and install
+
+**Manual**:
+1. Go to <a href="https://github.com/tuyenhm68/KomfyStudio/releases/latest" target="_blank">Releases</a>
+2. Download latest installer
+3. Run installer to update
+
+### How to uninstall?
+
+1. Go to **Settings** → **Apps & Features** (Windows)
+2. Find "KomfyStudio"
 3. Click **Uninstall**
-4. Làm theo hướng dẫn
+4. Follow instructions
 
 ---
 
-## 🐛 Báo Lỗi & Góp Ý
+## 🐛 Bug Reports & Feedback
 
-Nếu bạn gặp lỗi hoặc có góp ý:
+If you encounter bugs or have feedback:
 
-1. Mở app → **Settings** → **Feedback**
-2. Chọn loại feedback:
-   - 🐛 Bug Report (Báo lỗi)
-   - ✨ Feature Request (Yêu cầu tính năng)
-   - 💡 Suggestion (Đề xuất)
-3. Điền thông tin chi tiết
-4. Đính kèm ảnh chụp màn hình (nếu có)
+1. Open app → **Settings** → **Feedback**
+2. Select feedback type:
+   - 🐛 Bug Report
+   - ✨ Feature Request
+   - 💡 Suggestion
+3. Fill in details
+4. Attach screenshots (if any)
 5. Click **Send Feedback**
 
 ---
 
-## 📄 Giấy Phép
+## 📄 License
 
 Copyright © 2026 Hà Mạnh Tuyến
 
 ---
 
-## 🔗 Liên Kết
-- **YouTube**: <a href="https://www.youtube.com/channel/UCd3BHy2KUjBl1Z2cnrdLNFg" target="_blank">Kênh YouTube</a>
+## 🔗 Links
+- **YouTube**: <a href="https://www.youtube.com/channel/UCd3BHy2KUjBl1Z2cnrdLNFg" target="_blank">YouTube Channel</a>
 ---
