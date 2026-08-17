@@ -15,7 +15,7 @@
 
 **<a href="https://github.com/tuyenhm68/KomfyStudio/releases/latest" target="_blank">⬇️ Download Latest Version</a>**
 
-**<a href="https://drive.google.com/file/d/1De-0ZK_Igly5iFKwfKAUd4V6Vj87XDl4/view?usp=drive_link" target="_blank">⬇️ ComfyUI Portable for KomfyStudio</a>**
+**<a href="https://drive.google.com/file/d/1e105-dN0neUjymGfpqS5wf3Om-yFASy5/view?usp=sharing" target="_blank">⬇️ ComfyUI Portable for KomfyStudio</a>**
 
 **<a href="https://modal.com/notebooks/tuyenhm68/main/nb-DbCzbt5HUwPCz49YjN1W94" target="_blank">⬇️ ComfyUI Modal Notebook for KomfyStudio</a>**
 
@@ -63,7 +63,20 @@
 
 - **Text-to-Video (T2V)**: Generate videos from text descriptions
 - **Image-to-Video (I2V)**: Convert static images to dynamic videos
+- **MiniMax H3** ⭐ — All-in-One AI video generation running 100% locally (GPU ≥ 24GB VRAM)
+  - **T2V**: Text to Video (with native audio)
+  - **I2V**: Image to Video — animate from first/last frame
+  - **R2V**: Reference to Video — image = identity, video = motion, audio = soundtrack
+  - **Audio Drive**: Automatic lip-sync from audio
+  - **Keyframes**: Morph through specified keyframe images
+  - **Extend**: Extend video by a few more seconds
+  - **Chain**: Multi-clip continuous video with motion continuity
+  - **Music**: AI music generation from caption/lyrics (MiniMax Music 3)
+  - **Upscale**: Upscale video resolution
 - Support multiple aspect ratios
+
+**<a href="./docs/user-guide/minimax-h3-guide.en.md" target="_blank">📖 See detailed MiniMax H3 Guide</a>**
+
 
 ### 🎵 AI Audio Generation
 

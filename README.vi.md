@@ -15,7 +15,7 @@
 
 **<a href="https://github.com/tuyenhm68/KomfyStudio/releases/latest" target="_blank">⬇️ Tải phiên bản mới nhất</a>**
 
-**<a href="https://drive.google.com/file/d/1De-0ZK_Igly5iFKwfKAUd4V6Vj87XDl4/view?usp=drive_link" target="_blank">⬇️ Comfy Portable dành cho KomfyStudio</a>**
+**<a href="https://drive.google.com/file/d/1e105-dN0neUjymGfpqS5wf3Om-yFASy5/view?usp=sharing" target="_blank">⬇️ Comfy Portable dành cho KomfyStudio</a>**
 
 **<a href="https://modal.com/notebooks/tuyenhm68/main/nb-DbCzbt5HUwPCz49YjN1W94" target="_blank">⬇️ Comfy Modal Notebook dành cho KomfyStudio</a>**
 
@@ -62,7 +62,19 @@
 
 - **Text-to-Video (T2V)**: Tạo video từ mô tả văn bản
 - **Image-to-Video (I2V)**: Chuyển ảnh tĩnh thành video động
+- **MiniMax H3** ⭐ — Tạo video AI All-in-One chạy 100% local (GPU ≥ 24GB VRAM)
+  - **T2V**: Text to Video (kèm âm thanh native)
+  - **I2V**: Image to Video — animate từ ảnh đầu/cuối
+  - **R2V**: Reference to Video — ảnh = identity, video = motion, audio = soundtrack
+  - **Audio Drive**: Lip-sync tự động từ audio
+  - **Keyframes**: Chuyển cảnh giữa các khung hình chỉ định
+  - **Extend**: Kéo dài video thêm vài giây
+  - **Chain**: Ghép nhiều clip liên tục giữ motion continuity
+  - **Music**: Tạo nhạc AI từ caption/lyrics (MiniMax Music 3)
+  - **Upscale**: Nâng cấp độ phân giải video
 - Hỗ trợ nhiều tỷ lệ khung hình
+
+**<a href="./docs/user-guide/minimax-h3-guide.md" target="_blank">📖 Xem hướng dẫn chi tiết MiniMax H3</a>**
 
 ### 🎵 Tạo Âm Thanh AI
 
