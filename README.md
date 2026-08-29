@@ -78,6 +78,29 @@
 **<a href="./docs/user-guide/minimax-h3-guide.en.md" target="_blank">📖 See detailed MiniMax H3 Guide</a>**
 
 
+### 💬 Chat
+
+- **Describe it and it runs**: Type what you want to create — no app to open, no workflow to wire
+- **Automatic routing**: Attachments decide the mode (1 image → I2V, 1 audio → Audio Drive, 1 video → Extend)
+- **Switch models inline**: MiniMax H3, LTX 2.5, WAN 2.2 for video, MiniMax Music 3 for music, plus your installed image workflows
+- **Plan preview**: A summary line states exactly what will run before you send
+- **Project gallery**: Every result from Chat and apps in one place, grouped by day and filterable
+- **Reuse results**: Feed a previous result back in as input, or rerun the same prompt as a variant
+- **Background jobs**: Switching conversations never cancels a running job
+
+**<a href="./docs/user-guide/chat-guide.en.md" target="_blank">📖 View detailed Chat guide</a>**
+
+### 🧩 Skill
+
+- **Type `/` anywhere**: Skills work in every prompt box of every app, not just Chat
+- **Three kinds**: Template (offline), LLM (writes the prompt for you), Multi-step (asks, generates, waits for approval, then generates video)
+- **Accent-insensitive search**: Typing `giay` still finds `giấy`
+- **Runs survive restarts**: A skill waiting on your answer is restored intact
+- **Skill Hub**: Install from the community library, or publish your own
+- **Import / export**: Package skills to a file to share or back up
+
+**<a href="./docs/user-guide/skill-guide.en.md" target="_blank">📖 View detailed Skill guide</a>**
+
 ### 🎵 AI Audio Generation
 
 - **Text-to-Audio**: Generate sound and music from descriptions

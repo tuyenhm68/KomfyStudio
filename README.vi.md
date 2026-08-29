@@ -76,6 +76,29 @@
 
 **<a href="./docs/user-guide/minimax-h3-guide.md" target="_blank">📖 Xem hướng dẫn chi tiết MiniMax H3</a>**
 
+### 💬 Chat
+
+- **Mô tả là chạy**: Gõ thứ bạn muốn tạo — không cần mở app, không cần dựng workflow
+- **Tự nhận diện đầu vào**: File đính kèm quyết định chế độ (1 ảnh → I2V, 1 audio → Audio Drive, 1 video → Extend)
+- **Đổi model tại chỗ**: MiniMax H3, LTX 2.5, WAN 2.2 cho video, MiniMax Music 3 cho nhạc, cùng các workflow ảnh đã cài
+- **Xem trước kế hoạch**: Một dòng tóm tắt nói đúng thứ sắp chạy trước khi bạn gửi
+- **Thư viện dự án**: Mọi kết quả từ Chat và từ app nằm chung một chỗ, nhóm theo ngày, lọc được
+- **Dùng lại kết quả**: Đưa kết quả cũ làm đầu vào cho lượt sau, hoặc chạy lại prompt đó thành biến thể
+- **Job chạy nền**: Đổi hội thoại không làm huỷ lượt đang chạy
+
+**<a href="./docs/user-guide/chat-guide.md" target="_blank">📖 Xem hướng dẫn Chat chi tiết</a>**
+
+### 🧩 Skill
+
+- **Gõ `/` ở bất kỳ đâu**: Skill dùng được trong mọi ô prompt của mọi app, không riêng gì Chat
+- **Ba loại**: Template (chạy offline), LLM (viết prompt giúp bạn), Nhiều bước (hỏi, sinh ảnh, chờ duyệt rồi sinh video)
+- **Tìm không dấu**: Gõ `giay` vẫn ra `giấy`
+- **Không mất khi tắt app**: Lượt skill đang chờ bạn trả lời được khôi phục nguyên vẹn
+- **Skill Hub**: Cài từ kho cộng đồng, hoặc đăng skill của bạn lên
+- **Nhập / xuất**: Đóng gói skill thành file để chia sẻ hoặc sao lưu
+
+**<a href="./docs/user-guide/skill-guide.md" target="_blank">📖 Xem hướng dẫn Skill chi tiết</a>**
+
 ### 🎵 Tạo Âm Thanh AI
 
 - **Text-to-Audio**: Tạo âm thanh và nhạc từ mô tả
